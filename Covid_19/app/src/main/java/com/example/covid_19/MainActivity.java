@@ -11,6 +11,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.hbb20.CountryCodePicker;
 
@@ -129,8 +130,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
             @Override
             public void onFailure(Call<List<ModelClass>> call, Throwable t) {
-//                pieChart.clearChart();
-//                pieChart.addPieSlice(new PieModel("Confirm",cases, Color.parseColor("#FFB701")));
+                Toast.makeText(MainActivity.this, "Call api error", Toast.LENGTH_SHORT).show();
             }
         });
 

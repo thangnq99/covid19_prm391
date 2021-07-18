@@ -2,11 +2,11 @@ package com.example.covid_19;
 
 public class ModelClass {
 
-    private String cases, todayCase, deaths, todayDeaths, recovered, todayRecovered, active, country;
+    private String cases, todayCases, deaths, todayDeaths, recovered, todayRecovered, active, country;
 
-    public ModelClass(String cases, String todayCase, String deaths, String todayDeaths, String recovered, String todayRecovered, String active, String country) {
+    public ModelClass(String cases, String todayCases, String deaths, String todayDeaths, String recovered, String todayRecovered, String active, String country) {
         this.cases = cases;
-        this.todayCase = todayCase;
+        this.todayCases = todayCases;
         this.deaths = deaths;
         this.todayDeaths = todayDeaths;
         this.recovered = recovered;
@@ -24,11 +24,11 @@ public class ModelClass {
     }
 
     public String getTodayCase() {
-        return todayCase;
+        return todayCases;
     }
 
-    public void setTodayCase(String todayCase) {
-        this.todayCase = todayCase;
+    public void setTodayCase(String todayCases) {
+        this.todayCases = todayCases;
     }
 
     public String getDeaths() {
