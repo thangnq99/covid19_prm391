@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
             @Override
             public void onFailure(Call<List<ModelClass>> call, Throwable t) {
-
+                Toast.makeText(MainActivity.this, "Call api error", Toast.LENGTH_SHORT).show();
             }
         });
 
