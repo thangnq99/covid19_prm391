@@ -48,7 +48,6 @@
                     app:ccp_showPhoneCode="false"
                     app:ccp_textSize="12sp" />
 
-
             </LinearLayout>
 
             <LinearLayout
@@ -208,7 +207,6 @@
 
         </LinearLayout>
 
-
     </RelativeLayout>
 
     <RelativeLayout
@@ -296,7 +294,6 @@
 
                         </TextView>
 
-
                     </LinearLayout>
 
                 </LinearLayout>
@@ -372,7 +369,6 @@
                             android:textStyle="bold">
 
                         </TextView>
-
 
                     </LinearLayout>
 
@@ -450,7 +446,6 @@
 
                         </TextView>
 
-
                     </LinearLayout>
 
                 </LinearLayout>
@@ -526,7 +521,6 @@
                             android:textStyle="bold">
 
                         </TextView>
-
 
                     </LinearLayout>
 
